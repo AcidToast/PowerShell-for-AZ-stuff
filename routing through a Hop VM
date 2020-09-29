@@ -1,0 +1,2 @@
+***Used for routing traffic through a HOP VM with a routing table configured ***
+Set-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters -Name IpEnableRouter -Value 1
