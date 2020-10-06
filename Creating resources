@@ -1,0 +1,7 @@
+**Create an NSG in Azure**
+$NSG = Get-AzNetworkSecurityGroup -Name *myVMNSG* -ResourceGroupName *AzAutomationlod13846352*
+
+
+
+Write-Host "This script is intended to stop the VM you created in the prior exercise" -ForegroundColor White -BackgroundColor DarkGreen
+Stop-AzVM -Name "MyVM" -ResourceGroupName *AzAutomationlod13846352*
