@@ -1,0 +1,3 @@
+#Change pro source but basically resolve the DNS name if it is not connecting.  TXT is for DNS names.
+
+Resolve-DnsName -Name proseware.com -Type TXT
